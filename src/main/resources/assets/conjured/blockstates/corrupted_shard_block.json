@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "conjured:block/corrupted_shard_block"
+    }
+  }
+}

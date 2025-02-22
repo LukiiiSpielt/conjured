@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "conjured",
+  "version": "${version}",
+  "name": "Conjured",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "lukiii.mods.client.ConjuredClient"
+    ],
+    "main": [
+      "lukiii.mods.Conjured"
+    ]
+  },
+  "mixins": [
+    "conjured.mixins.json",
+    {
+      "config": "conjured.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
