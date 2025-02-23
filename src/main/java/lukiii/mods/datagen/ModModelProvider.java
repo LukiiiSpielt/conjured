@@ -24,6 +24,7 @@ public class ModModelProvider extends FabricModelProvider {
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {
         itemModelGenerator.register(ModItems.CORRUPTED_SHARD, Models.GENERATED);
         itemModelGenerator.register(ModBlocks.CORRUPTED_SHARD_CLUSTER.asItem(), Models.GENERATED);
+        itemModelGenerator.register(ModItems.CONJURATION_DUST, Models.GENERATED);
 
 
     }

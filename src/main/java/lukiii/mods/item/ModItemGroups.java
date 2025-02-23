@@ -20,6 +20,7 @@ public class ModItemGroups {
                         entries.add(ModItems.CORRUPTED_SHARD);
                         entries.add(ModBlocks.CORRUPTED_SHARD_BLOCK);
                         entries.add(ModBlocks.CORRUPTED_SHARD_CLUSTER);
+                        entries.add(ModItems.CONJURATION_DUST);
                     }).build());
 
 
