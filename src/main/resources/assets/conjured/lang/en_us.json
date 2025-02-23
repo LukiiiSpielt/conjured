@@ -1,5 +1,8 @@
 {
   "item.conjured.corrupted_shard": "Corrupted Shard",
 
-  "block.conjured.corrupted_shard_block": "Corrupted Shard Block"
+  "block.conjured.corrupted_shard_block": "Corrupted Shard Block",
+  "block.conjured.corrupted_shard_cluster": "Corrupted Shard Cluster",
+
+  "itemgroup.conjured.conjured_items": "Conjured"
 }

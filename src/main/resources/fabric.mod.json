@@ -14,6 +14,9 @@
     ],
     "main": [
       "lukiii.mods.Conjured"
+    ],
+    "fabric-datagen": [
+      "lukiii.mods.ConjuredDataGenerator"
     ]
   },
   "mixins": [

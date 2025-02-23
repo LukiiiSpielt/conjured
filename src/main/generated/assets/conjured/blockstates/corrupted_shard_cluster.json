@@ -1,0 +1,30 @@
+{
+  "variants": {
+    "facing=down": {
+      "model": "conjured:block/corrupted_shard_cluster",
+      "x": 180
+    },
+    "facing=east": {
+      "model": "conjured:block/corrupted_shard_cluster",
+      "x": 90,
+      "y": 90
+    },
+    "facing=north": {
+      "model": "conjured:block/corrupted_shard_cluster",
+      "x": 90
+    },
+    "facing=south": {
+      "model": "conjured:block/corrupted_shard_cluster",
+      "x": 90,
+      "y": 180
+    },
+    "facing=up": {
+      "model": "conjured:block/corrupted_shard_cluster"
+    },
+    "facing=west": {
+      "model": "conjured:block/corrupted_shard_cluster",
+      "x": 90,
+      "y": 270
+    }
+  }
+}

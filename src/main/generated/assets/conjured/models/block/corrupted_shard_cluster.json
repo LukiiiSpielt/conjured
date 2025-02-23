@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "conjured:block/corrupted_shard_cluster"
+  }
+}
