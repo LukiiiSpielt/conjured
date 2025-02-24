@@ -1,7 +1,7 @@
-package lukiii.mods.datagen;
+package lukiii.mods.conjured.datagen;
 
-import lukiii.mods.block.ModBlocks;
-import lukiii.mods.item.ModItems;
+import lukiii.mods.conjured.block.ModBlocks;
+import lukiii.mods.conjured.item.ModItems;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricRecipeProvider;
 import net.minecraft.data.server.recipe.RecipeExporter;

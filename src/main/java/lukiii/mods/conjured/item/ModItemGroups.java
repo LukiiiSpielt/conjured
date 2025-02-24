@@ -1,7 +1,7 @@
-package lukiii.mods.item;
+package lukiii.mods.conjured.item;
 
-import lukiii.mods.Conjured;
-import lukiii.mods.block.ModBlocks;
+import lukiii.mods.conjured.Conjured;
+import lukiii.mods.conjured.block.ModBlocks;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
@@ -21,6 +21,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.CORRUPTED_SHARD_BLOCK);
                         entries.add(ModBlocks.CORRUPTED_SHARD_CLUSTER);
                         entries.add(ModItems.CONJURATION_DUST);
+
                     }).build());
 
 

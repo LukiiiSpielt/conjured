@@ -2,8 +2,14 @@
   "item.conjured.corrupted_shard": "Corrupted Shard",
   "item.conjured.conjuration_dust": "Dust of Conjuration",
 
+  "item.minecraft.potion.effect.spectral_sight_potion": "Spectral Sight Potion",
+  "item.minecraft.splash_potion.effect.spectral_sight_potion": "Spectral Sight Potion",
+  "item.minecraft.lingering_potion.effect.spectral_sight_potion": "Spectral Sight Potion",
+
   "block.conjured.corrupted_shard_block": "Corrupted Shard Block",
   "block.conjured.corrupted_shard_cluster": "Corrupted Shard Cluster",
 
-  "itemgroup.conjured.conjured_items": "Conjured"
+  "itemgroup.conjured.conjured_items": "Conjured",
+
+  "effect.conjured.spectral_sight": "Spectral Sight"
 }

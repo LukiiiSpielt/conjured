@@ -13,10 +13,10 @@
       "lukiii.mods.client.ConjuredClient"
     ],
     "main": [
-      "lukiii.mods.Conjured"
+      "lukiii.mods.conjured.Conjured"
     ],
     "fabric-datagen": [
-      "lukiii.mods.ConjuredDataGenerator"
+      "lukiii.mods.conjured.ConjuredDataGenerator"
     ]
   },
   "mixins": [

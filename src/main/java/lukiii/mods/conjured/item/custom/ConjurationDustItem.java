@@ -1,6 +1,6 @@
-package lukiii.mods.item.custom;
+package lukiii.mods.conjured.item.custom;
 
-import lukiii.mods.block.ModBlocks;
+import lukiii.mods.conjured.block.ModBlocks;
 import net.minecraft.block.AmethystClusterBlock;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;

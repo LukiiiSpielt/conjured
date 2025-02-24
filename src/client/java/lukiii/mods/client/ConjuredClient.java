@@ -1,6 +1,6 @@
 package lukiii.mods.client;
 
-import lukiii.mods.block.ModBlocks;
+import lukiii.mods.conjured.block.ModBlocks;
 import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.fabric.api.blockrenderlayer.v1.BlockRenderLayerMap;
 import net.minecraft.client.render.RenderLayer;

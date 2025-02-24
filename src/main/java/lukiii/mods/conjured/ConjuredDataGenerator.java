@@ -1,6 +1,6 @@
-package lukiii.mods;
+package lukiii.mods.conjured;
 
-import lukiii.mods.datagen.*;
+import lukiii.mods.conjured.datagen.*;
 import net.fabricmc.fabric.api.datagen.v1.DataGeneratorEntrypoint;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;
 import net.minecraft.registry.RegistryBuilder;

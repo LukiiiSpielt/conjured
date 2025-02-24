@@ -1,7 +1,7 @@
-package lukiii.mods.item;
+package lukiii.mods.conjured.item;
 
-import lukiii.mods.Conjured;
-import lukiii.mods.item.custom.ConjurationDustItem;
+import lukiii.mods.conjured.Conjured;
+import lukiii.mods.conjured.item.custom.ConjurationDustItem;
 import net.minecraft.item.Item;
 
 import net.minecraft.registry.Registries;
