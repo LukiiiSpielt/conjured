@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_spirit_iron_nugget": {
+      "conditions": {
+        "items": [
+          {
+            "items": "conjured:spirit_iron_nugget"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:spirit_iron_ingot"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_spirit_iron_nugget"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:spirit_iron_ingot"
+    ]
+  }
+}

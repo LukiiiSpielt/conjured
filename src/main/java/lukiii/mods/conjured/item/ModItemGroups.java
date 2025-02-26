@@ -21,6 +21,8 @@ public class ModItemGroups {
                         entries.add(ModBlocks.CORRUPTED_SHARD_BLOCK);
                         entries.add(ModBlocks.CORRUPTED_SHARD_CLUSTER);
                         entries.add(ModItems.CONJURATION_DUST);
+                        entries.add(ModItems.SPIRIT_IRON_NUGGET);
+                        entries.add(ModItems.SPIRIT_IRON_INGOT);
                         entries.add(ModItems.GHOST_SPAWN_EGG);
                     }).build());
 

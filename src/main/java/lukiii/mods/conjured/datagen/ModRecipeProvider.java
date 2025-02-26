@@ -27,7 +27,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .input(Items.PHANTOM_MEMBRANE)
                 .criterion(hasItem(Items.AMETHYST_SHARD), conditionsFromItem(Items.AMETHYST_SHARD))
                 .offerTo(recipeExporter);
-
+        offerReversibleCompactingRecipes(recipeExporter, RecipeCategory.MISC, ModItems.SPIRIT_IRON_NUGGET, RecipeCategory.MISC, ModItems.SPIRIT_IRON_INGOT);
 
 
     }

@@ -9,8 +9,8 @@ import net.minecraft.registry.entry.RegistryEntry;
 import net.minecraft.util.Identifier;
 
 public class ModEffects {
-    public static final RegistryEntry<StatusEffect> SPECTRAL_SIGHT = registerStatusEffect("spectral_sight",
-            new SpectralSightEffect(StatusEffectCategory.NEUTRAL, 7442081));
+    public static final RegistryEntry<StatusEffect> HAUNTED = registerStatusEffect("haunted",
+            new HauntedEffect(StatusEffectCategory.NEUTRAL, 7442081));
 
 
 

@@ -11,8 +11,8 @@ import net.minecraft.util.Identifier;
 
 public class ModPotions {
 
-        public static final RegistryEntry<Potion> SPECTRAL_SIGHT_POTION = registerPotion("spectral_sight_potion",
-                new Potion(new StatusEffectInstance(ModEffects.SPECTRAL_SIGHT, 1200, 0)));
+        public static final RegistryEntry<Potion> HAUNTED_POTION = registerPotion("haunted_potion",
+                new Potion(new StatusEffectInstance(ModEffects.HAUNTED, 3600, 0)));
 
     private static RegistryEntry<Potion> registerPotion(String name, Potion potion) {
         return Registry.registerReference(Registries.POTION, Identifier.of(Conjured.MOD_ID, name), potion);

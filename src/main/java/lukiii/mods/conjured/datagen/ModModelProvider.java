@@ -31,7 +31,8 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.CONJURATION_DUST, Models.GENERATED);
         itemModelGenerator.register(ModItems.GHOST_SPAWN_EGG,
                 new Model(Optional.of(Identifier.of("item/template_spawn_egg")),Optional.empty()));
-
+        itemModelGenerator.register(ModItems.SPIRIT_IRON_NUGGET, Models.GENERATED);
+        itemModelGenerator.register(ModItems.SPIRIT_IRON_INGOT, Models.GENERATED);
 
     }
 }

@@ -25,7 +25,7 @@ public class Conjured implements ModInitializer {
         ModEntities.registerModEntities();
 
         FabricBrewingRecipeRegistryBuilder.BUILD.register(builder -> {
-            builder.registerPotionRecipe(Potions.AWKWARD, ModItems.CORRUPTED_SHARD, ModPotions.SPECTRAL_SIGHT_POTION);
+            builder.registerPotionRecipe(Potions.AWKWARD, ModItems.CORRUPTED_SHARD, ModPotions.HAUNTED_POTION);
 
         });
     }

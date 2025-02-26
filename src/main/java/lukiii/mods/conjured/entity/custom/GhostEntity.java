@@ -1,5 +1,6 @@
 package lukiii.mods.conjured.entity.custom;
 
+import lukiii.mods.conjured.item.ModItems;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.EntityType;
 import net.minecraft.entity.ai.goal.ActiveTargetGoal;
@@ -39,6 +40,16 @@ public class GhostEntity extends HostileEntity {
 
 
     }
+
+    @Override
+    protected void dropLoot(DamageSource source, boolean causedByPlayer) {
+        super.dropLoot(source, causedByPlayer);
+
+        if (causedByPlayer) {
+            this.dropItem(ModItems.SPIRIT_IRON_NUGGET, 1);
+        }
+    }
+
 
 
     @Override

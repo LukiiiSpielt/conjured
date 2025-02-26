@@ -1,15 +1,21 @@
 {
   "item.conjured.corrupted_shard": "Corrupted Shard",
   "item.conjured.conjuration_dust": "Dust of Conjuration",
+  "item.conjured.spirit_iron_nugget": "Spirit Iron Nugget",
+  "item.conjured.spirit_iron_ingot": "Spirit Iron Ingot",
 
-  "item.minecraft.potion.effect.spectral_sight_potion": "Spectral Sight Potion",
-  "item.minecraft.splash_potion.effect.spectral_sight_potion": "Spectral Sight Potion",
-  "item.minecraft.lingering_potion.effect.spectral_sight_potion": "Spectral Sight Potion",
+  "item.conjured.ghost_spawn_egg": "Ghost Spawn Egg",
+
+  "item.minecraft.potion.effect.haunted_potion": "Potion of Haunting",
+  "item.minecraft.splash_potion.effect.haunted_potion": "Splash Potion of Haunting",
+  "item.minecraft.lingering_potion.effect.haunted_potion": "Lingering Potion of Haunting",
 
   "block.conjured.corrupted_shard_block": "Corrupted Shard Block",
   "block.conjured.corrupted_shard_cluster": "Corrupted Shard Cluster",
 
   "itemgroup.conjured.conjured_items": "Conjured",
 
-  "effect.conjured.spectral_sight": "Spectral Sight"
+  "effect.conjured.haunted": "Haunted",
+
+  "entity.conjured.ghost": "Ghost"
 }

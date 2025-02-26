@@ -14,8 +14,10 @@ public class ModItems {
     public static final Item CORRUPTED_SHARD = registerItem("corrupted_shard", new Item(new Item.Settings()));
     public  static final Item CONJURATION_DUST = registerItem("conjuration_dust", new ConjurationDustItem(new Item.Settings()));
     public static final Item GHOST_SPAWN_EGG = registerItem("ghost_spawn_egg", new SpawnEggItem(
-            ModEntities.GHOST, 11075584,5915296, new Item.Settings()
+            ModEntities.GHOST,  11184810,5592405, new Item.Settings()
     ));
+    public static final Item SPIRIT_IRON_NUGGET = registerItem("spirit_iron_nugget", new Item(new Item.Settings()));
+    public static final Item SPIRIT_IRON_INGOT = registerItem("spirit_iron_ingot", new Item(new Item.Settings()));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(Conjured.MOD_ID, name), item);
