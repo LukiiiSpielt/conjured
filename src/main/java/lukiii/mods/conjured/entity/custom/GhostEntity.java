@@ -3,6 +3,7 @@ package lukiii.mods.conjured.entity.custom;
 import lukiii.mods.conjured.item.ModItems;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.EntityType;
+import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.ai.goal.ActiveTargetGoal;
 import net.minecraft.entity.ai.goal.LookAroundGoal;
 import net.minecraft.entity.ai.goal.LookAtEntityGoal;
@@ -26,7 +27,7 @@ public class GhostEntity extends HostileEntity {
         this.goalSelector.add(8, new LookAtEntityGoal(this, PlayerEntity.class, 8.0F));
         this.goalSelector.add(8, new LookAroundGoal(this));
         this.goalSelector.add(6, new MeleeAttackGoal(this, 1.0, false));
-        this.targetSelector.add(7, new ActiveTargetGoal<>(this, PlayerEntity.class, false));
+        this.targetSelector.add(7, new ActiveTargetGoal<>(this, LivingEntity.class, false));
 
 }
 

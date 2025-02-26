@@ -23,6 +23,7 @@ public class ModItemGroups {
                         entries.add(ModItems.CONJURATION_DUST);
                         entries.add(ModItems.SPIRIT_IRON_NUGGET);
                         entries.add(ModItems.SPIRIT_IRON_INGOT);
+                        entries.add(ModItems.SPIRIT_IRON_LONGSWORD);
                         entries.add(ModItems.GHOST_SPAWN_EGG);
                     }).build());
 

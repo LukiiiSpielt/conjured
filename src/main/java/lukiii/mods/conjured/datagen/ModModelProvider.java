@@ -34,5 +34,6 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.SPIRIT_IRON_NUGGET, Models.GENERATED);
         itemModelGenerator.register(ModItems.SPIRIT_IRON_INGOT, Models.GENERATED);
 
+
     }
 }
