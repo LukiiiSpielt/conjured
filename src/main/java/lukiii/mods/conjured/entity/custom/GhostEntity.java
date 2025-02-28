@@ -37,10 +37,9 @@ public class GhostEntity extends HostileEntity {
     public static DefaultAttributeContainer.Builder createGhostAttributes() {
         return HostileEntity.createHostileAttributes()
                 .add(EntityAttributes.GENERIC_FOLLOW_RANGE, 35.0)
-                .add(EntityAttributes.GENERIC_MOVEMENT_SPEED, 0.28F)
-                .add(EntityAttributes.GENERIC_ATTACK_DAMAGE, 8.0)
-                .add(EntityAttributes.GENERIC_ARMOR, 2.0)
-                .add(EntityAttributes.GENERIC_MAX_HEALTH, 40);
+                .add(EntityAttributes.GENERIC_MOVEMENT_SPEED, 0.22F)
+                .add(EntityAttributes.GENERIC_ATTACK_DAMAGE, 7.0)
+                .add(EntityAttributes.GENERIC_MAX_HEALTH, 30);
 
 
     }
